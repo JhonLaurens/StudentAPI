@@ -22,7 +22,7 @@ namespace StudentAPI.Controllers
 
         // GET: api/Student
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Student>>> GetStudents()
+        public async Task<ActionResult<IEnumerable<Student>>> GetStudents()// "ObtenerEstudiantes"
         {
           if (_context.Students == null)
           {
